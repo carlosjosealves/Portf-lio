@@ -1,0 +1,93 @@
+.conteudo {
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.titulo {
+    margin: 5rem;
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.perfil {
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 8px 33px #000000;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.descricao-titulo {
+    width: 50%;
+    height: 200px;
+    text-align: left;
+}
+
+.descricao {
+    font-size: 25px;
+    line-height: 2rem;
+}
+
+.descricao-projetos {
+    font-size: 30px;
+}
+
+.conteudo3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-conteudo {
+    margin: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 33px #000000;
+}
+
+@media screen and (max-width:548px) {
+    .titulo {
+        font-size: 2rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .descricao-titulo {
+        width: 80%;
+        height: auto;
+        text-align: left;
+    }
+
+    .descricao {
+        font-size: 23px;
+    }
+
+    .perfil {
+        width: 80%;
+        margin-bottom: 3rem;
+    }
+
+    .imagens {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .descricao {
+        padding: 10px;
+    }
+
+    .img-conteudo {
+        width: 80%;
+    }
+}

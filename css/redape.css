@@ -1,0 +1,29 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Centraliza verticalmente */
+    align-items: center;
+    /* Centraliza horizontalmente */
+    background: #002C53;
+}
+
+.img-rodape {
+    width: 10%;
+    padding-top: 30px;
+    margin: 0 auto;
+
+}
+
+.conteudo-rodape {
+    display: flex;
+    color: aqua;
+    flex-direction: column;
+    text-align: center;
+}
+
+@media screen and (max-width:648px) {
+    .img-rodape {
+        width: 20%;
+    }
+}
